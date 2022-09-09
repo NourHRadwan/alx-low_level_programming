@@ -2,7 +2,7 @@
 w level programming and algorithm at ALX school                                                                                           
                                                                                                                                               
 # About:                                                                                                                                      
-This repository is made for my learning path to become a Full Stack Software Engineer. Below is a tree diagrame of all the file               
+This repository is made for my learning path to become a Full Stack Software Engineer. Below is a list diagrame of all the file               
 which I have been working on.                                                                                                                 
                               
 .
@@ -18,4 +18,4 @@ which I have been working on.
 │   ├── 6-size.c
 │   └── README.md
 
-1 directories, 8 Files
+1 directories, 9 Files
