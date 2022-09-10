@@ -6,17 +6,17 @@ This repository is made for my learning path to become a Full Stack Software Eng
 which I have been working on for this repository.                                       
                               
 .
-├── 0x00-hello_world
+├── 0x00-hello_world                                                                                                                         
 │   ├── 0-preprocessor                                                                                                                        
-│   ├── 100-intel
-│   ├── 101-quote.c
-│   ├── 1-compiler
-│   ├── 2-assembler
-│   ├── 3-name
-│   ├── 4-puts.c
-│   ├── 5-printf.c
-│   ├── 6-size.c
-│   └── README.md
+│   ├── 100-intel                                                                                                                         
+│   ├── 101-quote.c                                                                                                                         
+│   ├── 1-compiler                                                                                                                          
+│   ├── 2-assembler                                                                                                                          
+│   ├── 3-name                                                                                                                          
+│   ├── 4-puts.c                                                                                                                         
+│   ├── 5-printf.c                                                                                                                         
+│   ├── 6-size.c                                                                                                                         
+│   └── README.md                                                                                                                         
 ├── 0x00- 0x01-variables_if_else_while
 │   ├── 0-positive_or_negative.c
 │   ├── 1-last_digit.
