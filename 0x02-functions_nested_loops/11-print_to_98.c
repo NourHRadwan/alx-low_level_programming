@@ -32,7 +32,8 @@ putchar(',');
 putchar(' ');
 }
 }
-} else
+}
+else
 {
 printf("%i", n);
 }
