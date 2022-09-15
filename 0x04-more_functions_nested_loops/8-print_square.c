@@ -1,27 +1,31 @@
-#include "coding.h"
+#include <stdio.h>
+#include "main.h"
 
 /**
-   * print_square - function with int type one argument
-    * @size: 1st int argument
-     *
-      * Description: nested loops to pring square with new line
-       * Return: na
-        */
+*print_square - prints squares
+*@size: parameter
+*Return: returns nothing
+*/
+
 void print_square(int size)
 {
-		int i, j;
+	int inc1, inc2;
 
-			if (size > 0)
-					{
-								for (i = 0; i < size; i++)
-											{
-															for (j = 0; j < size; j++)
-																			{
-																								_putchar(																			}
-_putchar('\n');}
+	if (size > 0)
+	{
+		for (inc1 = 0; inc1 < size; inc1++)
+		{
+			for (inc2 = 0; inc2 < (size - 1); inc2++)
+			{
+				putchar('#');
+			}
 
-}
-else
-{
-_putchar('\n');}
+			putchar('#');
+			putchar('\n');
+		}
+	}
+	else
+	{
+		putchar('\n');
+	}
 }
