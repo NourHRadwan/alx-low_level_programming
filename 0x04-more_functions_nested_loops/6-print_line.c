@@ -1,6 +1,6 @@
 #include "main.h"
 
-/**
+/*
  * print_line - function with one int type argument
  * @n: first argument
  *
