@@ -22,7 +22,7 @@ len /= 2;
 while (len < i)
 {
 len++;
-_putchar(*(str + len - 1));	
+_putchar(*(str + len - 1));
 }
 _putchar('\n');
 }
