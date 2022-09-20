@@ -1,6 +1,6 @@
-#include <main.h>
+#include "main.h"
 /**
- * rev_string - function with one argument
+ * rev_string - function takes 1 argument
  * @s: char type argument
  *
  * Description: reversing a string
