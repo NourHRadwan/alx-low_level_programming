@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * puts2 - function with one argument
  * @str: char type pointer
