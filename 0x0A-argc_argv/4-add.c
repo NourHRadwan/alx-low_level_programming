@@ -23,7 +23,8 @@ for (j = 0; argv[i][j] != '\0'; j++)
 if (argv[i][j] >= '0' && argv[i][j] <= '9')
 {
 continue;
-} else
+}
+else
 {
 printf("Error\n");
 return (1);
@@ -32,7 +33,8 @@ return (1);
 result += atoi(argv[i]);
 }
 printf("%d\n", result);
-} else
+}
+else
 printf("0\n");
 return (0);
 }
