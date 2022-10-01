@@ -37,7 +37,7 @@ return (0);
  * @s: char type pointer
  * @len: int type argument
  * @a: int type argument
- *      
+ * 
  * Description: to test conditions with all inputs from other functions
  * Return: 1 if palindrome 0 if false
  */
