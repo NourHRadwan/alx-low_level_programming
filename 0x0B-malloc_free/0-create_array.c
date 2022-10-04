@@ -16,7 +16,7 @@ return (NULL);
 pc = malloc(sizeof(c) * size);
 if (pc == NULL)
 return (NULL);
-for (i = 0; i< size; i++)
+for (i = 0; i < size; i++)
 pc[i] = c;
 return (pc);
 }
