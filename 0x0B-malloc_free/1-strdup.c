@@ -1,14 +1,34 @@
-#include <string.h>
 #include <stdlib.h>
-#include <stdio.h>
+#include "main.h"
+/*
+ * *_strdup - function with one argument
+ * @str: string argument
+ *
+ * Description: returns a pointer to allocated space in memory
+ * Return: pointer
+ */
 char *_strdup(char *str)
 {
-char* pstr;
+char *pstr;
 int i;
-pstr =  (char*)malloc(sizeof(str));
+if (str == NULL)
+{
+return (NULL);
+}
+i = 0;
+while (str[i] != '\0')
+{
+i++;
+}
+pstr =  (char *) malloc (1 + i * sizeof(char)); //extra for the NULL
+for (ptr == NULL)
+{
+return (NULL);
+}
 for (i = 0; str[i] != '\0'; i++)
 {
-    pstr[i] = str [i];
+pstr[i] = str [i];
 }
-return (char*)pstr;
+pstr[i] = '\0';
+return (pstr);
 }
