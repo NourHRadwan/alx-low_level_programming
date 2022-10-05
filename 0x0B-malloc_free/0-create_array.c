@@ -18,5 +18,4 @@ if (pc == NULL)
 return (NULL);
 for (i = 0; i < size; i++)
 pc[i] = c;
-return (pc);
-}
+return (pc); }
