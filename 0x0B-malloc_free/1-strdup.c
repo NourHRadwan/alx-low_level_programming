@@ -20,11 +20,9 @@ while (str[i] != '\0')
 {
 i++;
 }
-pstr =  (char *) malloc (1 + i * sizeof(char)); //extra for the NULL
-for (ptr == NULL)
-{
+pstr =  (char *) malloc (1 + i * sizeof(char));
+for (pstr == NULL)
 return (NULL);
-}
 for (i = 0; str[i] != '\0'; i++)
 {
 pstr[i] = str [i];
