@@ -39,5 +39,4 @@ k++;
 j++;
 }
 pstr[j] = '\0';
-return (pstr);
-}
+return (pstr);}
