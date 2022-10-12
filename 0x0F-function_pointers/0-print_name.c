@@ -1,6 +1,3 @@
-#include "function_pointers.h"
-#include <stdio.h>
-#include <stdlib.h>
 /**
  * print_name - f points to either func in main
  * @name: name
