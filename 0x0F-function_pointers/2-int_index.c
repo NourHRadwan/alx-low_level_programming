@@ -10,18 +10,17 @@
   *Return int value
   */
 int int_index(int *array, int size, int (*cmp)(int)){
-int i;
+int i, ind;
 if(size <= 0){
 return(-1);
 }
 if(cmp && array){
-for(i = 0; i < size; i++){
-cmp(array[i]);
-if(cmp(array[i]!= 0))
-return(i);
+for(i=0; i<size;i++){
+ind = cmp(array[i]);
+if(ind != 0){
+return(i);}
 }
 }
 else
 return(-1);
-
 }
