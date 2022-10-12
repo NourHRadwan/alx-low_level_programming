@@ -16,10 +16,12 @@ return(-1);
 }
 if(cmp && array){
 for(i = 0; i < size; i++){
+cmp(array[i]);
 if(cmp(array[i]!= 0))
 return(i);
+}
+}
 else
 return(-1);
-}
-}
+
 }
